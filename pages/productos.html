@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria al Toke</title>
+
+    <!--link google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,500;1,900&display=swap" rel="stylesheet">
+
+    <!--link bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   
+
+    <!--Link css-->
+    <link rel="stylesheet" href="../css/estilos.css">
+
+     <!--Link iconos-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+
+
+</head>
+<body>
+    <header>
+        <div class="container_header">
+          <div class="header">
+            <nav  class="nav_header"  >
+              <ul  class="ul_header" >
+                <li class="li_header">
+                  <a href="../index.html">Inicio</a>
+                  <a href="../pages/sobreNosotros.html">Sobre Nosotros</a>
+                  <a href="../pages/servicios.html">Servicios</a>
+                  <a href="../pages/contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+     </header> 
+     <main>
+        <div class="slide">
+            <div class="slide-inner">
+                <input class="slide-open" type="radio" id="slide-1" 
+                      name="slide" aria-hidden="true" hidden="" checked="checked">
+                <div class="slide-item">
+                    <img src="../img/carrusel1.jpg">
+                </div>
+                <input class="slide-open" type="radio" id="slide-2" 
+                      name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                    <img src="../img/carrusel2.jpg">
+                </div>
+                <input class="slide-open" type="radio" id="slide-3" 
+                      name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                    <img src="../img/carrusel3.jpg">
+                </div>
+                <label for="slide-3" class="slide-control prev control-1">‹</label>
+                <label for="slide-2" class="slide-control next control-1">›</label>
+                <label for="slide-1" class="slide-control prev control-2">‹</label>
+                <label for="slide-3" class="slide-control next control-2">›</label>
+                <label for="slide-2" class="slide-control prev control-3">‹</label>
+                <label for="slide-1" class="slide-control next control-3">›</label>
+                <ol class="slide-indicador">
+                    <li>
+                        <label for="slide-1" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-2" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-3" class="slide-circulo">•</label>
+                    </li>
+                </ol>
+            </div>
+        </div>
+     </main>
+
+     <footer>
+        <section class="section_footer">
+          <div class="colores"></div>
+          <div class="colores"></div>
+          <div class="colores"></div>
+          <ul class="ulFotter">
+            <li> <h2 class="parrafo_footer" >Seguinos en nuestras redes</h2>
+            </li>
+            <li class="liFooter" >
+              <a class="aFooter" href="#"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li class="liFooter" >
+              <a class="aFooter" href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="liFooter" >
+              <a class="aFooter" href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="liFooter" >
+              <a class="aFooter" href="#"><i class="fab fa-whatsapp"></i></a>
+            </li>
+          </ul>
+        </section>  
+      </footer>
+
+</body>
+</html>
