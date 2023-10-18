@@ -9,10 +9,10 @@
     width: 100%;
    
       .nav_header{
-        height: 50%;
+        height: 100%;
 
         .ul_header{
-          width: 80%;
+          width: 100%;
           padding: 2px;
 
           .li_header{
@@ -48,7 +48,7 @@
 
    @media screen and (max-width:480px) {
     section{
-      width: 300%;
+      width: 100%;
 
        h2.encabezado{
           margin: 20px 0px;
@@ -63,8 +63,8 @@
         display: inline-block;
 
         .card{
-          width: 200px;
-          height: 200px;
+          width: 150px;
+          height: 150px;
         }
       }
    }
@@ -188,7 +188,7 @@
       .waviy {
         position: relative;
         -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, .2));
-        font-size: 23px;  
+        font-size: 10px;  
       }
       
       .waviy span {
@@ -208,11 +208,15 @@
 
      @media screen and (max-width:480px) {
       .h1_inicio_servicios{
+
         padding: 10px;
       }
 
       .containerPapa{
         margin: 30px;
+        p{
+          font-size: 25px;
+        }
       }
      }
 

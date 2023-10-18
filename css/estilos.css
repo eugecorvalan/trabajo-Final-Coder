@@ -26,12 +26,13 @@ header .container_header {
 
 .li_header {
   list-style: none;
+  font-size: 7px;
 }
 
 a {
   color: aliceblue;
   text-decoration: none;
-  font-size: 10pxgit;
+  font-size: 1px;
   margin: 10px;
   z-index: 1;
 }
@@ -237,6 +238,12 @@ img {
   display: flex;
   background: rgb(228, 29, 253);
   background: linear-gradient(90deg, rgba(228, 29, 253, 0.9047268566) 4%, rgb(62, 58, 180) 44%);
+}
+
+.containerHistoria_ {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 /* Hoja Productos*/
@@ -607,10 +614,10 @@ ul li a:hover::before {
     width: 100%;
   }
   header .nav_header {
-    height: 50%;
+    height: 100%;
   }
   header .nav_header .ul_header {
-    width: 80%;
+    width: 100%;
     padding: 2px;
   }
   header .nav_header .ul_header .li_header {
@@ -636,7 +643,7 @@ ul li a:hover::before {
 }
 @media screen and (max-width: 480px) {
   section {
-    width: 300%;
+    width: 100%;
   }
   section h2.encabezado {
     margin: 20px 0px;
@@ -649,8 +656,8 @@ ul li a:hover::before {
     display: inline-block;
   }
   .containerCards .card {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -753,7 +760,7 @@ ul li a:hover::before {
   .waviy {
     position: relative;
     -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
-    font-size: 23px;
+    font-size: 10px;
   }
   .waviy span {
     font-family: "Alfa Slab One", cursive;
@@ -773,6 +780,9 @@ ul li a:hover::before {
   }
   .containerPapa {
     margin: 30px;
+  }
+  .containerPapa p {
+    font-size: 25px;
   }
 }
 /* Vista mobile main pagina contacto*/
