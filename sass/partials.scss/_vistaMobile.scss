@@ -1,0 +1,240 @@
+
+/*
+     MOBILE  PAGINA INICIO
+
+     Vista mobile header */
+@media screen and (max-width: 480px) {
+
+  header{
+    width: 100%;
+   
+      .nav_header{
+        height: 50%;
+
+        .ul_header{
+          width: 80%;
+          padding: 2px;
+
+          .li_header{
+            width: 15%;
+          }
+        }
+      }
+    }
+}
+  @media screen and (max-width: 480px) {
+     main{
+      width: 100%;
+     } 
+    .container_inicio{
+    
+      }
+  
+    #fondo{
+      width: 100%;
+      height: 500px;
+      background-image: url(../img/pizza);
+      background-repeat: no-repeat;
+     
+    }
+  
+      #fondo h1{
+         width: 100%;
+         height: 120px;
+         font-size: 3rem;
+         color: aliceblue;
+  }
+  }
+
+   @media screen and (max-width:480px) {
+    section{
+      width: 300%;
+
+       h2.encabezado{
+          margin: 20px 0px;
+          font-size: 30px;
+          text-align: center;
+       }
+      }
+   }
+
+   @media screen and (max-width:480px) {
+      .containerCards{
+        display: inline-block;
+
+        .card{
+          width: 200px;
+          height: 200px;
+        }
+      }
+   }
+
+   @media screen and (max-width:480px) {
+    .pre-footer{
+      width: 100%;
+      margin: 50px;
+      display: inline-block;
+      justify-content: center;
+      align-items: center;
+              
+        img{
+          margin: 10px;
+          border: 3px solid whitesmoke;
+          width: 350px;
+        }
+    }
+        
+        .p-prefooter{
+          font-size: 20px;
+          color: #f3f3f3;
+        }
+   }
+
+   @media screen and (max-width:480px) {
+     footer{
+      width: 100%;
+     } 
+    .section_footer{
+      display: inline-block;
+      width: 100%;
+      height: 15%;
+        p{
+          display: none;
+        }
+
+        ul li{
+          margin: 2px;
+        }
+    }
+   }
+
+   @media screen and (max-width:480px) {
+    .boton-wsp{
+      display: none;
+    }
+   }
+     /* Vista mobile main pagina sobre nosotros*/
+
+     @media screen and (max-width:480px) {
+      .containerHistoria{
+        width: 100%;
+        display: inline;
+        text-align: center;
+
+        .hijosHistoria{
+          width: 100%;
+          color: #f3f3f3;
+          padding: 0px;
+          font-size: 2rem;
+
+          img{
+            width: 80%;
+          }
+        
+          /*section.historia{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            background: rgb(228,29,253);
+            background: linear-gradient(90deg, rgba(228,29,253,0.9047268565629377) 4%, rgba(62,58,180,1) 44%);
+           
+          } */
+
+        }
+      }
+     }
+
+     @media screen and (max-width:480px) {
+      .containerHistoria_{
+        width: 100%;
+        padding-top: 30px;
+        
+
+          .hijosHistoria_{
+            width: 80%;
+            display: inline;
+            text-align: center;
+            color: #f3f3f3;
+            padding: 0px;
+            font-size: 2rem;
+           
+            img{
+              width: 100%;
+            }
+          }
+      }
+
+     }
+
+
+     @media screen and (max-width:480px) {
+      .section_footer{
+        display: flex;
+          .ulFotter{
+              display: flex;
+              li{
+                width: 50%;
+                .parrafo_footer{
+                 display: none;
+                }
+              }
+          }  
+      } 
+     }
+
+        /* Vista mobile main pagina Productos*/
+
+     @media screen and (max-width:480px) {
+      .waviy {
+        position: relative;
+        -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, .2));
+        font-size: 23px;  
+      }
+      
+      .waviy span {
+        font-family: 'Alfa Slab One', cursive;
+        position: relative;
+        display: inline-block;
+        color: #fff;
+        text-transform: uppercase;
+        animation: waviy 1s infinite;
+        animation-delay: calc(.1s * var(--i));
+        font-size: 30px; 
+    
+       }   
+     }
+
+     /* Vista mobile main pagina servicios*/
+
+     @media screen and (max-width:480px) {
+      .h1_inicio_servicios{
+        padding: 10px;
+      }
+
+      .containerPapa{
+        margin: 30px;
+      }
+     }
+
+     /* Vista mobile main pagina contacto*/
+      @media screen and (max-width:480px) {
+        .container{
+      
+          margin: 0px;
+          padding: 0px;
+          .imgContacto img{
+            width: 80%;
+            padding: 0;
+            margin: 0;
+          }
+        } 
+      }
+
+        @media screen and (max-width:480px){
+          .pContacto{
+            font-size: 20px;
+            padding: 30px;
+          }
+        }
+
+  /* Vista mobile logo wsp*/
